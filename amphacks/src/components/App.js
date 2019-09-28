@@ -20,6 +20,13 @@ function App() {
           <Route path={ROUTES.HOME} component={LandingPage} />
         </Switch>
       </Router>
+
+      <iframe
+        title="chatbot"
+        sandbox="allow-scripts"
+        style={{ width: '100vw', height: '100vh' }}
+        src="https://landbot.io/u/H-268342-0G8YPULSV3BGIP4X/index.html"
+      />
       {/* <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.

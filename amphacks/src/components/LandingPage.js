@@ -16,7 +16,6 @@ function LandingPage() {
             <Testimonials />
             <Portal />
             <header className="App-header"></header>
-            <Link to={ROUTES.BENEFITZ}>BENEFITZ</Link>
         </div>
     );
 }
