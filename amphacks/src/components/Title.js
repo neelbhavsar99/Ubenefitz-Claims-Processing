@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './../logo.png'
 
+import '../style/title.css';
+
 function Title() {
     return (
-        <div>
-            <img src={logo} />
+        <div className="title">
+            <h1>UBenefitz</h1>
         </div>
     );
 }

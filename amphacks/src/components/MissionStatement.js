@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../style/mission.css';
 function MissionStatement() {
     return (
-        <div>
-            <p>MissionStatement</p>
+        <div className="mission">
+            <p>put mission statement text here:</p>
         </div>
     );
 }
