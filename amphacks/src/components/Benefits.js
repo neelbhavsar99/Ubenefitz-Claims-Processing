@@ -1,13 +1,13 @@
 import React from 'react';
 
-function LandingPage() {
+function Benefits() {
     return (
         <div>
             <header className="App-header">
-                <p>Landing Page</p>
+                <p>Benefits page</p>
             </header>
         </div>
     );
 }
 
-export default LandingPage;
+export default Benefits;
