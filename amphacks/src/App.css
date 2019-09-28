@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,24 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+
+/* react-bot/src/App.css */
+
+html {
+  background: lightgreen;
+  color: white;
+}
+
+.title {
+
+}
+
+.missionstatement {
+
+}
+
+.login {
+
 }
