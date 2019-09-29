@@ -14,7 +14,7 @@ function Portal() {
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>We use your <img src={rbcIcon} /> RBC Student account information to automatically find out what benefits are available to you</Form.Label>
-                        <Form.Control type="email" placeholder="Enter your RBC Client ID" />
+                        <Form.Control type="text" placeholder="Enter your RBC Client ID" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">

@@ -5,7 +5,7 @@ import { InputGroup, Container, Row, Col, Accordion, Card, Button } from 'react-
 import CheckBox from './CheckBox';
 import '../style/benefits.css';
 import data from './../data.json';
-
+import Confetti from './Confetti';
 import travelIcon from './../airplane.png';
 import healthIcon from './../first-aid-kit.png';
 import dentalIcon from './../tooth.png';
@@ -35,9 +35,6 @@ class Info extends Component {
         this.setState({ total: total })
     }
 
-    updateTotal() {
-
-    }
     render() {
         let school = data.school;
         let provider = data.provider;
@@ -71,30 +68,41 @@ class Info extends Component {
                 );
             }
 
-            return (
-                <Row class="row">
-                    <Col xs="11">
-                        <Card>
-                            <Card.Header>
-                                <Accordion.Toggle as={Button} variant="link" eventKey={key}>
-                                    <img className="icon" src={icons[idx]} />
-                                    {header}
-                                </Accordion.Toggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey={key}>
-                                <Card.Body>
-                                    <Container>
-                                        {cardBody}
-                                    </Container>
-                                </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <CheckBox id={idx} handleChecked={this.handleChecked} checked={this.state.checks[idx]} />
-                    </Col>
+            let confetti = this.state.total > 5000 ? <Confetti /> : null;
 
-                </Row>
+            return (
+                <div>
+                    <Row class="row">
+                        <Col xs="11">
+                            <Card>
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey={key} style={{ 'display': 'flex', 'color': 'black' }}>
+
+                                        <div>
+                                            <img className="icon" src={icons[idx]} />
+                                            {header}
+                                        </div>
+
+
+
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey={key}>
+                                    <Card.Body>
+                                        <Container>
+                                            {cardBody}
+                                        </Container>
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <CheckBox id={idx} handleChecked={this.handleChecked} checked={this.state.checks[idx]} />
+                        </Col>
+
+                    </Row>
+                </div>
+
 
             );
         });
@@ -104,7 +112,10 @@ class Info extends Component {
                 <Accordion>
                     {cards}
                 </Accordion>
-                <h2 style={{ 'padding': '1em' }}>Total money saved through health benefits: ${this.state.total}</h2>
+                <Row>
+
+                </Row>
+                <h2 style={{ 'color': 'white', 'background': '#67D09C', 'margin': '2em -25vw', 'padding': '1em', 'text-align': 'center' }}>Total money saved through health benefits: <strong>${this.state.total}</strong></h2>
 
             </div>
         );

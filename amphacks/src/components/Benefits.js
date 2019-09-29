@@ -8,6 +8,7 @@ import Info from './Info';
 class Benefits extends Component {
     render() {
         return (
+
             <Container className="benefits">
 
                 <h3 className="blurb">Hi <em>Stew Dent!</em> Your school, {data.school}, is using {data.provider}, as an insurance provider. Check out all your benefits!</h3>
