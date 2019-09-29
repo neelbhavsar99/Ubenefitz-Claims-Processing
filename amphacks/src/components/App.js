@@ -31,7 +31,7 @@ class App extends Component {
             <Nav.Link href="/home"></Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link style={{ 'color': 'white' }} href="/"><strong>U-Benefitz</strong></Nav.Link>
+            <Nav.Link style={{ 'color': 'white' }} href="/amphacks"><strong>U-Benefitz</strong></Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link style={{ 'color': 'white' }} href="https://www.utsc.utoronto.ca/home/">University</Nav.Link>
