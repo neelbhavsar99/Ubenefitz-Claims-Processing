@@ -1,0 +1,26 @@
+.table {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+
+}
+
+.row1 {
+    width: 80%;
+}
+
+.datarow {
+    background-color: red;
+}
+
+.icon {
+    width: 1.5em;
+    margin-right: 0.5em;
+}

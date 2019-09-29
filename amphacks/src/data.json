@@ -1,0 +1,99 @@
+{
+    "school": "University of Toronto - Scarborough",
+    "benefits": {
+        "health": {
+            "icon": "/src/first-aid-kit.png",
+            "max-value": "5000",
+            "header": "HEALTH - UP TO $5,000",
+            "row1": [
+                "Health Benefits",
+                "PRESCRIPTION DRUGS",
+                "HPV VACCINES",
+                "ORAL & DEVICE CONTRACEPTIVES",
+                "DIABETIC TESTING AGENTS",
+                "ACUPUNCTURIST"
+            ],
+            "row2": [
+                "Per Visit/Purchase",
+                "reasonable and customary charges",
+                "reasonable and customary charges",
+                "100%",
+                "100%",
+                "$20"
+            ],
+            "row3": [
+                "Per Policy Year",
+                "$5,000",
+                "included in drug maximum",
+                "$300",
+                "$500",
+                "$500"
+            ]
+        },
+        "dental": {
+            "icon": "../tooth.png",
+            "max-value": "800",
+            "header": "DENTAL - UP TO $800",
+            "row1": [
+                "Types of Service",
+                "Basic Services",
+                "Periodontal Services",
+                "Major Restorative Services"
+            ],
+            "row2": [
+                "Student Dental Discount",
+                "30%",
+                "20%",
+                "20%"
+            ],
+            "row3": [
+                "Student Green Shield Insurance",
+                "70%",
+                "60%",
+                "70%"
+            ]
+        },
+        "vision": {
+            "icon": "../eyeglasses.png",
+            "max-value": "200",
+            "header": "VISION - UP TO $200",
+            "row1": [
+                "Vision Benefits",
+                "EYE GLASSES AND CONTACTS",
+                "EYE EXAM"
+            ],
+            "row2": [
+                "Per Visit/ Purchase",
+                "100%",
+                "100%"
+            ],
+            "row3": [
+                "$200",
+                "included in overall $200 maximum"
+            ]
+        },
+        "travel": {
+            "icon": "../airplane.png",
+            "max-value": "5000000",
+            "header": "TRAVEL - UP TO $5,000,000",
+            "row1": [
+                "Travel Coverage",
+                "TRAVEL HEALTH COVERAGE",
+                "EMERGENCY SERVICES",
+                "EMERGENCY SERVICES"
+            ],
+            "row2": [
+                "Amount Covered",
+                "120 days",
+                "$5,000,000",
+                "$50,000"
+            ],
+            "row3": [
+                "Eligibile",
+                "Per Trip",
+                "Per benefit year",
+                "Per benefit year"
+            ]
+        }
+    }
+}

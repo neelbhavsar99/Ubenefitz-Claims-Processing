@@ -1,34 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import { Accordion, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
+import '../style/benefits.css';
+import data from './../data.json';
 
-function Benefits() {
-    return (
-        <div>
-            <Accordion>
-                <Card>
-                    <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            Click me!
-                        </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="0">
-                        <Card.Body>Hello! I'm the body</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card>
-                    <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                            Click me!
-                        </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="1">
-                        <Card.Body>Hello! I'm another body</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-            </Accordion>
-        </div>
-    );
+import Info from './Info';
+
+import travelIcon from './../airplane.png';
+import healthIcon from './../first-aid-kit.png';
+import dentalIcon from './../tooth.png';
+import visionIcon from './../eyeglasses.png';
+
+class Benefits extends Component {
+    render() {
+        return (
+            <div>
+                <Info />
+            </div>
+        );
+    }
+
 }
 
 export default Benefits;
