@@ -1,0 +1,14 @@
+.link {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+
+img {
+    width: 1.5em;
+}

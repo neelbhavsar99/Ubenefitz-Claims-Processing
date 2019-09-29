@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,26 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+
+/* react-bot/src/App.css */
+
+/* #1A6FC6 dark blue
+#3E9EDA cyan
+#61D1DA light blue
+#67D09C light green
+#7CCA62 yellowish green
+#A5C249 yellow */
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app {
+
 }
