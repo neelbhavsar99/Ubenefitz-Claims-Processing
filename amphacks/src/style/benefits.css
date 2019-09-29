@@ -5,7 +5,8 @@
 
 .row {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-items: center;
 }
 
 .cell {
@@ -23,4 +24,14 @@
 .icon {
     width: 1.5em;
     margin-right: 0.5em;
+}
+
+.benefits {
+  height: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(#FFFFFF, #61D1DA); */
+}
+
+.blurb {
+    padding: 2em;
 }

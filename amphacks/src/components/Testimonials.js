@@ -3,48 +3,58 @@ import React from 'react';
 import before from './../before.jpg'
 import after from './../after.jpg'
 
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
 
 
 import '../style/test.css';
 
 function Testimonials() {
     return (
-        <div className="testimonial">
-            <Container>
+        <div id="id" className="testimonial">
+            <Container style={{ 'padding-top': '2em' }}>
                 <Row>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={before} />
-                            <Card.Body>
-                                {/* <Card.Title>Before UBenefitz</Card.Title> */}
-                                <Card.Text>
-                                    Before U-Benefitz
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <div className="before">
-                            <img />
-                        </div>
-                    </Col>
-                    <Col xs={5}>
-                        <div class="quote">
-                            <blockquote>"After using U-Benefitz, I saved $250 while lowering my stress levels at school"</blockquote>
-                            <cite>- Stew Dent</cite>
-                        </div>
-
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={after} />
-                            <Card.Body>
-                                {/* <Card.Title>Before UBenefitz</Card.Title> */}
-                                <Card.Text>
-                                    After U-Benefitz
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={before}
+                                    alt="First slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Before</h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={after}
+                                    alt="Third slide"
+                                />
+
+                                <Carousel.Caption>
+                                    <h3>After</h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={before}
+                                    alt="Third slide"
+                                />
+
+                                <Carousel.Caption>
+                                    <h3>Before</h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
                     </Col>
+                    <Col>
+                    </Col>
+
+
                 </Row>
             </Container>
 
@@ -52,7 +62,7 @@ function Testimonials() {
 
 
 
-        </div>
+        </div >
     );
 }
 

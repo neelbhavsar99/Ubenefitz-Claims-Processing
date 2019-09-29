@@ -13,10 +13,12 @@ function LandingPage() {
         <div class="landing">
             <Title />
             <Container>
-                <MissionStatement />
+
+
                 {/* <Offer /> */}
-                <Testimonials />
+
                 <Portal />
+                <Testimonials />
             </Container>
         </div>
     );

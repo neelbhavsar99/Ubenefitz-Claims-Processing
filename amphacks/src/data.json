@@ -1,5 +1,5 @@
 {
-    "school": "University of Toronto - Scarborough",
+    "school": "University of Toronto, Scarborough",
     "provider": "Green Shield Canada",
     "benefits": {
         "health": {
@@ -8,11 +8,11 @@
             "header": "HEALTH - UP TO $5,000",
             "row1": [
                 "Health Benefits",
-                "PRESCRIPTION DRUGS",
-                "HPV VACCINES",
-                "ORAL & DEVICE CONTRACEPTIVES",
-                "DIABETIC TESTING AGENTS",
-                "ACUPUNCTURIST"
+                "Prescription Drugs",
+                "Hpv Vaccines",
+                "Oral & Device Contraceptives",
+                "Diabetic Testing Agents",
+                "Acupuncturist"
             ],
             "row2": [
                 "Per Visit/Purchase",
@@ -69,6 +69,7 @@
                 "100%"
             ],
             "row3": [
+                "Amount Covered",
                 "$200",
                 "included in overall $200 maximum"
             ]
