@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 import * as ROUTES from "../constants/routes";
 import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
+
+import rbcIcon from './../rbc-logo.png';
+
 import '../style/portal.css';
 function Portal() {
     return (
@@ -10,7 +13,7 @@ function Portal() {
             <Container>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Label>We use your RBC Student account information to automatically find out what benefits are available to you</Form.Label>
+                        <Form.Label>We use your <img src={rbcIcon} /> RBC Student account information to automatically find out what benefits are available to you</Form.Label>
                         <Form.Control type="email" placeholder="Enter your RBC Client ID" />
                     </Form.Group>
 

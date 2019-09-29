@@ -1,5 +1,6 @@
 {
     "school": "University of Toronto - Scarborough",
+    "provider": "Green Shield Canada",
     "benefits": {
         "health": {
             "icon": "/src/first-aid-kit.png",
