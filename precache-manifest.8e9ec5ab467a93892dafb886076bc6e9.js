@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e58e9ba7d9679ea462728ee315a9714",
+    "revision": "49b80583c54771d1d749c9d367e3a71a",
     "url": "/amphacks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amphacks/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "0a31f382398a0cf412ff",
+    "revision": "d08fb6dd2b14bea444a7",
     "url": "/amphacks/static/css/main.9437c724.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amphacks/static/js/2.b853d3be.chunk.js"
   },
   {
-    "revision": "0a31f382398a0cf412ff",
-    "url": "/amphacks/static/js/main.92f4828a.chunk.js"
+    "revision": "d08fb6dd2b14bea444a7",
+    "url": "/amphacks/static/js/main.1c6d4671.chunk.js"
   },
   {
     "revision": "b5605e3b9ee23ca9afcc",
