@@ -24,8 +24,15 @@
 
 /* react-bot/src/App.css */
 
+/* #1A6FC6 dark blue
+#3E9EDA cyan
+#61D1DA light blue
+#67D09C light green
+#7CCA62 yellowish green
+#A5C249 yellow */
+
 html {
-  background: lightgreen;
+  background: #67D09C;
   color: white;
 }
 

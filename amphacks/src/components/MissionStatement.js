@@ -3,7 +3,7 @@ import '../style/mission.css';
 function MissionStatement() {
     return (
         <div className="mission">
-            <p>put mission statement text here:</p>
+            <p></p>
         </div>
     );
 }

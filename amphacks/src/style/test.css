@@ -1,0 +1,25 @@
+/* .before {
+    height: 20vh;
+    width: 20vw;
+}
+
+.after {
+    height: 20vh;
+    width: 20vw;
+} */
+
+blockquote {
+    font-size: 2em;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
