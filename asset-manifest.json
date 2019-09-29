@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amphacks/static/css/main.9437c724.chunk.css",
+    "main.js": "/amphacks/static/js/main.ad43ff8b.chunk.js",
+    "main.js.map": "/amphacks/static/js/main.ad43ff8b.chunk.js.map",
+    "runtime-main.js": "/amphacks/static/js/runtime-main.12729a3d.js",
+    "runtime-main.js.map": "/amphacks/static/js/runtime-main.12729a3d.js.map",
+    "static/css/2.0624914a.chunk.css": "/amphacks/static/css/2.0624914a.chunk.css",
+    "static/js/2.b853d3be.chunk.js": "/amphacks/static/js/2.b853d3be.chunk.js",
+    "static/js/2.b853d3be.chunk.js.map": "/amphacks/static/js/2.b853d3be.chunk.js.map",
+    "index.html": "/amphacks/index.html",
+    "precache-manifest.7d58aee08aa8a51e162f14c44540c529.js": "/amphacks/precache-manifest.7d58aee08aa8a51e162f14c44540c529.js",
+    "service-worker.js": "/amphacks/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/amphacks/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.9437c724.chunk.css.map": "/amphacks/static/css/main.9437c724.chunk.css.map",
+    "static/media/after.jpg": "/amphacks/static/media/after.a2c18ae0.jpg",
+    "static/media/airplane.png": "/amphacks/static/media/airplane.79a45326.png",
+    "static/media/before.jpg": "/amphacks/static/media/before.d62e3960.jpg",
+    "static/media/house.png": "/amphacks/static/media/house.8b4654d7.png",
+    "static/media/logo.png": "/amphacks/static/media/logo.a6ac9380.png",
+    "static/media/rbc-logo.png": "/amphacks/static/media/rbc-logo.bc764942.png",
+    "static/media/tooth.png": "/amphacks/static/media/tooth.78503745.png"
+  }
+}
