@@ -1,5 +1,12 @@
 .mission {
+    color: white;
+    text-align: center;
+    font-size: 2em;
     height: 20vh;
-    background: lightblue;
+    background: #61D1DA;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
-

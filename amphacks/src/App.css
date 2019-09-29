@@ -31,22 +31,14 @@
 #7CCA62 yellowish green
 #A5C249 yellow */
 
-html {
-  background: #67D09C;
-  color: white;
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-.title {
-
-}
-
-.logo {
-  width: 100vw;
-}
-.missionstatement {
-
-}
-
-.login {
-
+.app {
+  background: linear-gradient(#FFFFFF, #61D1DA);
 }

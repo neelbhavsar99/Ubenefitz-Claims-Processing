@@ -19,7 +19,7 @@ function Testimonials() {
                             <Card.Body>
                                 {/* <Card.Title>Before UBenefitz</Card.Title> */}
                                 <Card.Text>
-                                    Before UBenefitz
+                                    Before U-Benefitz
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -29,7 +29,8 @@ function Testimonials() {
                     </Col>
                     <Col xs={5}>
                         <div class="quote">
-                            <blockquote>"After using UBenefitz, I saved $250 while lowering my stress levels at school"</blockquote>
+                            <blockquote>"After using U-Benefitz, I saved $250 while lowering my stress levels at school"</blockquote>
+                            <cite>- Stew Dent</cite>
                         </div>
 
                     </Col>
@@ -39,7 +40,7 @@ function Testimonials() {
                             <Card.Body>
                                 {/* <Card.Title>Before UBenefitz</Card.Title> */}
                                 <Card.Text>
-                                    After UBenefitz
+                                    After U-Benefitz
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -3,17 +3,14 @@ import '../style/mission.css';
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
-function MissionStatement() {
+function Offer() {
     return (
         <div className="mission">
             <Container>
                 <Row>
                     <Col>
-                        <p>
-                            Our goal: educate Canadians about their health benefits and help them save money
-                        </p>
-
-
+                        <p>Learn about what benefits you have as a University student!</p>
+                        <p>Save Money!!</p>
                     </Col>
                 </Row>
             </Container>
@@ -21,4 +18,4 @@ function MissionStatement() {
     );
 }
 
-export default MissionStatement;
+export default Offer;
