@@ -4,6 +4,12 @@ This is a web Application POC that uses Amazon Rekognition services for payments
 # Depiction
 <img src="AH19_2.png">
 
+# Business Justification
+<img src="AH19_3.png">
+
+<img src="AH19_4.png">
+
+<img src="AH19_5.png">
 
 
 
